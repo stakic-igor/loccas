@@ -1,0 +1,18 @@
+.logo {
+    @include box-shadow(0, 0, 10px 0, rgba(0, 0, 0, .3));
+    background: $gw-white;
+    box-sizing: border-box;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 3.750rem;
+    padding: .625rem 0 .625rem 1rem;
+    width: 8.500rem;
+    margin-top: .625rem;
+    position: absolute;
+    top: 0;
+    &__img {
+        display: block;
+        width: auto;
+        height: 40px;
+    }
+}

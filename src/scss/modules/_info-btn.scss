@@ -1,0 +1,15 @@
+.info-btn {
+    @include box-shadow(0, 0, 10px 0, rgba(0, 0, 0, .3));
+    background-color: $gw-white;
+    border-radius: .250rem;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin: 0.625rem;
+    position: absolute;
+    top: 80px;
+}
